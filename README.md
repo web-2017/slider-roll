@@ -2,6 +2,10 @@
 
 This is a perfect slider before and after author Mario Magomedov
 
+# Demo
+
+https://web-2017.github.io/sliderBeforeAfter/
+
 # Installation
 
 Using npm:
