@@ -10,11 +10,11 @@ https://web-2017.github.io/sliderBeforeAfter/
 
 Using npm:
 
-`npm i sliderBeforeAfter --save`
+`npm i slidersbeforeafter --save`
 
 Using yarn:
 
-`yarn add sliderBeforeAfter`
+`yarn add slidersbeforeafter`
 
 In any js file
 
