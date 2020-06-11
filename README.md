@@ -50,4 +50,4 @@ shadowizard supports 8 options, all of which are optional:
 - _src2_ - set second img source (Default to 'https://picsum.photos/id/1050/500/350')
 - _border_width_ - set borderWidth (Default to '2px')
 - _border_color_ - set borderColor (Default to '#fff')
-- _showMoreOptionsLog_ - show all avalible options (Default to false)
+- _showMoreOptionsLog_ - set true - show all avalible options in console (Default to false)
