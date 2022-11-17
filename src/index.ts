@@ -80,15 +80,4 @@ class sliderBeforeAfter {
 		})
 	}
 }
-
-// initialize slider
-let slider = new sliderBeforeAfter({
-	class_name: 'slider',
-	width: '600px',
-	height: '350px',
-	border_width: '2px',
-	border_color: 'red',
-	showMoreOptionsLog: true,
-})
-
-slider.start()
+export { sliderBeforeAfter }

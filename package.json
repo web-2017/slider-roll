@@ -1,26 +1,41 @@
 {
-  "name": "slider-before-after",
-  "version": "1.0.0",
-  "description": "This is a perfect slider before and after author Mario Magomedov",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/web-2017/sliderBeforeAfter.git"
-  },
-  "keywords": [
-    "slider",
-    "sliderjs",
-    "slider-before-after",
-    "image-before-after",
-    "sliderbeforeafter"
-  ],
-  "author": "Mario Magomedov",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/web-2017/sliderBeforeAfter/issues"
-  },
-  "homepage": "https://github.com/web-2017/sliderBeforeAfter#readme"
+	"name": "slider-roll",
+	"version": "1.0.5",
+	"main": "./dist/index.js",
+	"author": "Mario Magomedov",
+	"license": "MIT",
+	"scripts": {
+		"pub": "npx webpack && npm version patch && npm publish"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.20.2",
+		"@types/node-fetch": "^2.6.2",
+		"@types/react": "^18.0.25",
+		"babel-loader": "^8.3.0",
+		"css-loader": "^6.7.2",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"style-loader": "^3.3.1",
+		"ts-loader": "^9.4.1",
+		"typescript": "^4.9.3",
+		"webpack": "^5.75.0",
+		"webpack-cli": "^4.10.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/web-2017/slider-roll.git"
+	},
+	"keywords": [
+		"slider",
+		"slider-roll",
+		"js slider",
+		"react slider",
+		"slider roll"
+	],
+	"files": [
+		"dist"
+	],
+	"dependencies": {
+		"node-fetch": "^2.6.7"
+	}
 }
